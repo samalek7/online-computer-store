@@ -1,0 +1,76 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Theme Colors */
+.bg-dark {
+    background-color: #164623 !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link,
+.navbar-dark .navbar-text {
+    color: #e5e7eb !important;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #38bdf8 !important;
+}
+
+.btn-primary {
+    background-color: #4f46e5 !important;
+    border-color: #4f46e5 !important;
+}
+
+.btn-primary:hover {
+    background-color: #4338ca !important;
+    border-color: #4338ca !important;
+}
+
+.btn-outline-primary {
+    color: #4f46e5 !important;
+    border-color: #4f46e5 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #4f46e5 !important;
+    color: #fff !important;
+}
+
+a {
+    color: #4f46e5;
+}
+
+a:hover {
+    color: #4338ca;
+}
+
+.placeholder-image,
+.placeholder-image-large {
+    background-color: #e5e7eb;
+    color: #6b7280;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-image {
+    height: 200px;
+}
+
+.placeholder-image-large {
+    height: 300px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+footer {
+    margin-top: auto;
+}
