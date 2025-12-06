@@ -1,54 +1,58 @@
 Online Computer Store
 ---------------------
 
-This project is a basic online computer store created for my Web Programming course. 
-It allows users to browse products, add items to a cart, place orders, and write reviews. 
-There is also an admin panel where the admin can manage products and view all orders.
+This project is a simple online store that I created for my Web Programming course. 
+It lets users look at computer-related products, add items to a cart, make an order, 
+and leave a rating or review on products they bought. There is also an admin section 
+where products can be added, edited, or deleted.
 
-Technologies Used
------------------
-- PHP
-- MySQL
-- HTML/CSS
-- Bootstrap
-- JavaScript
-- XAMPP (Apache + MySQL)
+I used PHP, MySQL, HTML, CSS, and a little bit of JavaScript. Bootstrap is used for layout.
 
-Features
---------
-User Side:
+Main Features
+-------------
 - User registration and login
-- Browse products by category
-- Search products
-- View product details
-- Add items to cart
-- Update or remove items from cart
-- Checkout and place orders
-- View past orders
-- Leave product reviews and ratings
+- Browsing all products
+- Searching for products
+- Viewing product details
+- Adding items to the cart
+- Updating or removing cart items
+- Placing an order
+- Seeing past orders
+- Writing ratings and reviews
 
-Admin Side:
-- Admin login system
+Admin Features
+--------------
+- Admin login
 - Add new products
-- Edit products
+- Edit product details
 - Delete products
 - View all customer orders
 
 Database
 --------
-Import the db.sql file into phpMyAdmin.  
-It creates the necessary tables and inserts sample products.
+The database is included in the db.sql file.  
+Import it in phpMyAdmin after creating a database.
 
-How to Run
-----------
-1. Put the project folder inside: C:/xampp/htdocs/
-2. Start Apache and MySQL in XAMPP.
-3. Import db.sql into phpMyAdmin.
-4. Open the project in the browser:
+The main tables are:
+- users
+- products
+- cart
+- orders
+- order_items
+- reviews
+
+How to Run It
+-------------
+1. Install XAMPP.
+2. Put this project folder inside: C:/xampp/htdocs/
+3. Start Apache and MySQL from XAMPP.
+4. Open phpMyAdmin and import db.sql.
+5. Go to this link in your browser:
    http://localhost/online-computer-store/
 
-Notes
------
-You may need to create an admin account manually by inserting a user in the database with is_admin = 1.
------
-Created by: Sameerkhan
+Admin Account Note
+------------------
+To make an admin user, open the users table in phpMyAdmin and set is_admin to 1 
+for any user you want.
+
+### Created by: Sameerkhan
